@@ -35,5 +35,9 @@ int main() {
     }
 
     // State search by length:
+    printf("Find by searching a state with a length of 7 letters: \n");
     State* findState = searchState(stateArray, NUM_OF_STATES, 7);
-    printf("State: %s (%d letters long)\n", findState->stateName, findState->nameLength);
+    printf("State: %s (%d letters long)\n", findState->stateName, findState->nameLength); 
+
+    return 0;
+}

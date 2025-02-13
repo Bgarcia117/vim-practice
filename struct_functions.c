@@ -5,8 +5,8 @@
 
 void initializeStates(State* a, int numOfStates) {
 
-	char* _stateNames[numOfStates] = { "Kentucky", "Tennessee", "Utah", "Georgia", "Maine",
-							  "Mississippi", "Massachusetts", "Nevada", "California", "Pennsylvania"};
+	char* _stateNames[] = { "Kentucky", "Tennessee", "Utah", "Georgia", "Maine",
+				"Mississippi", "Massachusetts", "Nevada", "California", "Pennsylvania"};
 
 	// Copies the names into the state structs
 	for (int i = 0; i < numOfStates; i++) {

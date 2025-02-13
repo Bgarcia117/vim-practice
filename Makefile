@@ -28,7 +28,7 @@ name_reverse.o: name_reverse.c name_reverse.h
 	$(CC) $(CFLAGS) -c name_reverse.c -o name_reverse.o
 
 struct_functions.o: struct_functions.c struct_functions.h state_struct.h name_length.h constants.h
-    $(CC) $(CFLAGS) -c struct_functions.c -o struct_functions.o
+	$(CC) $(CFLAGS) -c struct_functions.c -o struct_functions.o
 
 clean: # Removes obj files without prompting
 	rm -f $(OBJ) $(TARGET)
