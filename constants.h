@@ -1,0 +1,2 @@
+#define MAX_LENGTH 15
+#define NUM_OF_STATES 10

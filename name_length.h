@@ -1,1 +1,1 @@
-void letter_count(const char*); // Function signature
+int letter_count(const char*); // Function signature
